@@ -1,12 +1,13 @@
 const express = require('express');
 const app = express();
-//Traer a la conexión de BBDD
+// Traer a la conexión de BBDD
 const connectDB = require('./config/db');
 
-//Conectarse a la BBDD
+// Connect to DDBB
 connectDB();
 
-//Testeo
+// Init Middleware
+app.use(express.json({ extended: false })); 
 
 app.get('/', (req, res) => {
   res.json({ asd: 'Hola' });

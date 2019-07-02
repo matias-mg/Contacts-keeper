@@ -1,5 +1,10 @@
 const express = require('express');
 const app = express();
+//Traer a la conexión de BBDD
+const connectDB = require('./config/db');
+
+//Conectarse a la BBDD
+connectDB();
 
 app.get('/', (req, res) => {
   res.json({ asd: 'Hola' });

@@ -6,6 +6,8 @@ const connectDB = require('./config/db');
 //Conectarse a la BBDD
 connectDB();
 
+//Testeo
+
 app.get('/', (req, res) => {
   res.json({ asd: 'Hola' });
 })

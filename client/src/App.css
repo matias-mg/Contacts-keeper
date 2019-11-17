@@ -223,6 +223,10 @@ img {
   border-radius: 5px;
 }
 
+.badge-right {
+  float: right;
+}
+
 .alert {
   padding: 0.7rem;
   margin: 1rem 0;

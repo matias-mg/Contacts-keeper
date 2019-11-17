@@ -1,4 +1,4 @@
 {
-  "MongoURI": "mongodb+srv://chross:chross@contactkeeper-e2wex.mongodb.net/test?retryWrites=true&w=majority",
+  "MongoURI": "mongodb+srv://chross:123@contactkeeper-e2wex.mongodb.net/test?retryWrites=true&w=majority",
   "jwtSecret": "secret"
 }
